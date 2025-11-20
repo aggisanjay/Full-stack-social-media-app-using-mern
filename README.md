@@ -33,5 +33,70 @@ Users can send/receive messages, view profiles, and see live message updates wit
 - JWT Authentication
 - SSE (Server Sent Events)
 
+⚙️ Environment Variables
+
+Server (.env)
+
+PORT=5000
+
+MONGO_URL=your_mongodb_connection_string
+
+CLERK_PUBLISHABLE_KEY=xxxx
+
+CLERK_SECRET_KEY=xxxx
+
+IMAGEKIT_PUBLIC_KEY=xxxx
+
+IMAGEKIT_PRIVATE_KEY=xxxx
+
+IMAGEKIT_URL_ENDPOINT=xxxx
+
+EMAIL_HOST=smtp.gmail.com
+
+EMAIL_PORT=465
+
+EMAIL_USER=xxxx
+
+EMAIL_PASS=xxxx
+
+Client (.env)
+
+VITE_CLERK_PUBLISHABLE_KEY=xxxx
+
+VITE_API_URL=http://localhost:5000
+
+🖥️ Running the Project Locally
+
+1. Install dependencies
+
+cd server
+
+npm install
+
+cd ../client
+
+npm install
+
+2. Start the server
+
+cd server
+
+npm run dev
+
+3. Start the client
+
+cd client
+
+npm run dev
+
+
+Both apps will run independently:
+
+Client → http://localhost:5173
+
+Server → http://localhost:5000
+
+
+## screenshots
 
 
