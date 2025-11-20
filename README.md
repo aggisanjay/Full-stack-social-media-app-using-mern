@@ -96,7 +96,25 @@ Client → http://localhost:5173
 
 Server → http://localhost:5000
 
-
 ## screenshots
+
+# Login
+
+<img width="1306" height="612" alt="image" src="https://github.com/user-attachments/assets/09ece220-c7e6-47d7-8eee-d334a83b7f0b" />
+
+# Dashboard story 
+
+<img width="1347" height="645" alt="image" src="https://github.com/user-attachments/assets/754dc97e-3ff3-420e-865e-6fb9be78f5b2" />
+
+# Sender
+
+<img width="1344" height="645" alt="image" src="https://github.com/user-attachments/assets/80f972aa-1c07-4393-a9b6-e0889442e723" />
+
+
+# Reciever
+
+<img width="1344" height="641" alt="image" src="https://github.com/user-attachments/assets/80083e78-ff9e-4b7d-bcee-29730d94da95" />
+
+
 
 
